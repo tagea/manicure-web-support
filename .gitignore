@@ -1,0 +1,28 @@
+# IntelliJ IDEA and Gradle files #
+/.idea/
+/.vscode/
+/.gradle/
+*.iml
+/gradle/wrapper/gradle-wrapper.jar
+/gradlew
+/gradle/wrapper/gradle-wrapper.properties
+/gradlew.bat
+
+# Back-end files #
+/rest/build/
+
+# Front-end files #
+/client/.tmp/
+/client/coverage/
+/**/node_modules/
+/client/dist/
+.env
+
+# Other files #
+*.log
+*.log.*
+# Local storage #
+/rest/tred-store/*
+*.DS_Store
+
+dist

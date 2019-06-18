@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render TableList component 1`] = `
+<styled__PaperStyled>
+  <styled__TableHeader>
+    <SearchInput />
+    <FabButton
+      handleClick={[Function]}
+      label="Add"
+      src="test-file-stub"
+    />
+  </styled__TableHeader>
+  <InfiniteLoader
+    isRowLoaded={[Function]}
+    loadMoreRows={[Function]}
+    minimumBatchSize={10}
+    rowCount={10000}
+    threshold={15}
+  >
+    <Component />
+  </InfiniteLoader>
+</styled__PaperStyled>
+`;

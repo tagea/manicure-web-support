@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render Logo styled-component with 1`] = `
+<styled__LogoStyled
+  alignItems="center"
+  container={true}
+  justify="center"
+  spacing={8}
+>
+  <WithStyles(Grid)
+    item={true}
+  >
+    <styled__ImgStyled
+      alt="logo"
+      height="58"
+      src="test-file-stub"
+      width="58"
+    />
+  </WithStyles(Grid)>
+  <WithStyles(Grid)
+    item={true}
+  >
+    <styled__TopHeaderStyled
+      align="center"
+      variant="h3"
+    >
+      ManiCure
+    </styled__TopHeaderStyled>
+    <styled__SubHeaderStyled
+      align="center"
+      variant="h4"
+    >
+      Support
+    </styled__SubHeaderStyled>
+  </WithStyles(Grid)>
+</styled__LogoStyled>
+`;

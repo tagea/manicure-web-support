@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render AuthContainer 1`] = `
+<Auth
+  changeInput={[Function]}
+  error={false}
+  handleSubmit={[Function]}
+  pressEnter={[Function]}
+/>
+`;

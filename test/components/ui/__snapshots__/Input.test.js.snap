@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render Input styled-component 1`] = `
+<styled__InputStyled
+  autoComplete=""
+  error={false}
+  fullWidth={true}
+  id=""
+  label=""
+  margin="dense"
+  name=""
+  type=""
+  variant="outlined"
+/>
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dispatches the correct fetchUserAction and payload 1`] = `
+Array [
+  Object {
+    "type": "FETCH_USER_WAITING",
+  },
+  Object {
+    "payload": "Request failed with status code 401",
+    "type": "UNAUTHENTICATION",
+  },
+]
+`;

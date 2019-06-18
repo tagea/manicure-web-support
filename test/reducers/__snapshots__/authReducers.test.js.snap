@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return the initial state for AUTHENTICATED 1`] = `
+Object {
+  "authenticated": true,
+  "error": false,
+  "status": null,
+}
+`;
+
+exports[`should return the initial state for AUTHENTICATION_ERROR 1`] = `
+Object {
+  "authenticated": false,
+  "error": true,
+  "status": undefined,
+}
+`;
+
+exports[`should return the initial state for LOGOUT 1`] = `
+Object {
+  "authenticated": false,
+  "error": false,
+  "status": null,
+}
+`;
+
+exports[`should return the initial state for LOGOUT_ERROR 1`] = `
+Object {
+  "authenticated": false,
+  "error": false,
+  "status": undefined,
+}
+`;

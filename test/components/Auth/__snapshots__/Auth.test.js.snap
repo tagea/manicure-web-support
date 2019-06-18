@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render Auth component 1`] = `
+<globalStyled__BackgroundStyled
+  container={true}
+>
+  <WithStyles(Grid)
+    alignItems="center"
+    container={true}
+    direction="column"
+    justify="center"
+  >
+    <Logo />
+    <styled__PaperStyled
+      alignItems="center"
+      container={true}
+      direction="column"
+      justify="center"
+    >
+      <Input
+        autoComplete="username"
+        error={false}
+        id="username-support"
+        label="Username"
+        name="username"
+        onChange={[Function]}
+        type="text"
+      />
+      <Input
+        autoComplete="current-password"
+        error={false}
+        id="password-support"
+        label="Password"
+        name="password"
+        onChange={[Function]}
+        onKeyDown={[Function]}
+        type="password"
+      />
+      <Button
+        color="secondary"
+        handleClick={[Function]}
+        size="large"
+        text="Sign in"
+      />
+    </styled__PaperStyled>
+  </WithStyles(Grid)>
+</globalStyled__BackgroundStyled>
+`;

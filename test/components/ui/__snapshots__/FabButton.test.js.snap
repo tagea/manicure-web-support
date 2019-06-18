@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render FabButton 1`] = `
+<styled__FabButtonStyled
+  aria-label=""
+  color="secondary"
+  onClick={[Function]}
+  size="medium"
+>
+  <img
+    alt=""
+    height="17"
+    src=""
+    width="17"
+  />
+</styled__FabButtonStyled>
+`;

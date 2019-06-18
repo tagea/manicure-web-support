@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render HomeTabs component 1`] = `
+<styled__ContainerStyled
+  container={true}
+  justify="center"
+>
+  <WithStyles(Grid)
+    item={true}
+    md={10}
+  >
+    <styled__AppBarStyled
+      color="default"
+      position="static"
+    >
+      <WithStyles(Tabs)
+        indicatorColor="primary"
+        onChange={[Function]}
+        textColor="primary"
+        value={0}
+      >
+        <styled__TabStyled
+          key="0"
+          label=""
+        />
+      </WithStyles(Tabs)>
+      <FabButton
+        handleClick={[Function]}
+        label="Logout"
+        src="test-file-stub"
+      />
+    </styled__AppBarStyled>
+    <styled__TabContainerStyled
+      key="0"
+    >
+      <Component />
+    </styled__TabContainerStyled>
+  </WithStyles(Grid)>
+</styled__ContainerStyled>
+`;
