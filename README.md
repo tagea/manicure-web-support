@@ -1,6 +1,6 @@
 # Web support for mobile app
 - ReactJS, Redux
 - axios library to get Data
-- Jeast/Enzime test for React
-- Material UI
+- Jest/Enzyme test for React
+- Material UI + styled-components
 - Virtualized table
